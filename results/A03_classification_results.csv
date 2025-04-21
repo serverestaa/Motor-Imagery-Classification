@@ -1,0 +1,36 @@
+subject,feature_set,classifier,accuracy,f1_macro,best_params
+A03,time,LDA,0.4827586206896552,0.48333515781791647,"{'classifier__shrinkage': 0.1, 'classifier__solver': 'lsqr'}"
+A03,time,SVM,0.5344827586206896,0.534825468648998,"{'classifier__C': 0.1, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}"
+A03,time,RandomForest,0.46551724137931033,0.46933514089729333,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 4, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 50}"
+A03,time,MLP,0.5,0.49901960784313726,"{'classifier__activation': 'tanh', 'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (50, 50), 'classifier__learning_rate': 'constant'}"
+A03,time,Ensemble,0.5517241379310345,0.5454863119336804,N/A
+A03,erd_ers,LDA,0.39655172413793105,0.4161220043572984,"{'classifier__shrinkage': 'auto', 'classifier__solver': 'lsqr'}"
+A03,erd_ers,SVM,0.3620689655172414,0.36871240601503763,"{'classifier__C': 10, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}"
+A03,erd_ers,RandomForest,0.46551724137931033,0.4515018315018315,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 2, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}"
+A03,erd_ers,MLP,0.41379310344827586,0.42740888144113953,"{'classifier__activation': 'tanh', 'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (50,), 'classifier__learning_rate': 'constant'}"
+A03,erd_ers,Ensemble,0.41379310344827586,0.4271908163565276,N/A
+A03,bandpower,LDA,0.7586206896551724,0.7580439171095457,"{'classifier__shrinkage': 'auto', 'classifier__solver': 'lsqr'}"
+A03,bandpower,SVM,0.7068965517241379,0.706487061325771,"{'classifier__C': 1, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}"
+A03,bandpower,RandomForest,0.6551724137931034,0.6541525263951734,"{'classifier__max_depth': 10, 'classifier__min_samples_leaf': 4, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 100}"
+A03,bandpower,MLP,0.6206896551724138,0.6227678571428572,"{'classifier__activation': 'tanh', 'classifier__alpha': 0.01, 'classifier__hidden_layer_sizes': (100,), 'classifier__learning_rate': 'constant'}"
+A03,bandpower,Ensemble,0.7241379310344828,0.7239802013995562,N/A
+A03,csp,LDA,0.7586206896551724,0.7646316646316647,"{'classifier__shrinkage': 0.30000000000000004, 'classifier__solver': 'lsqr'}"
+A03,csp,SVM,0.7586206896551724,0.7558739012846518,"{'classifier__C': 0.1, 'classifier__gamma': 1, 'classifier__kernel': 'rbf'}"
+A03,csp,RandomForest,0.7241379310344828,0.7345011310528552,"{'classifier__max_depth': 10, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 50}"
+A03,csp,MLP,0.7068965517241379,0.7070618956394819,"{'classifier__activation': 'tanh', 'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (50, 50), 'classifier__learning_rate': 'constant'}"
+A03,csp,Ensemble,0.7413793103448276,0.7463369963369962,N/A
+A03,riemann,LDA,0.8620689655172413,0.8630268199233717,"{'classifier__shrinkage': 0.7000000000000001, 'classifier__solver': 'lsqr'}"
+A03,riemann,SVM,0.8448275862068966,0.849906629318394,"{'classifier__C': 1, 'classifier__gamma': 'scale', 'classifier__kernel': 'rbf'}"
+A03,riemann,RandomForest,0.896551724137931,0.8972530103995622,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 4, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 200}"
+A03,riemann,MLP,0.8448275862068966,0.8447790992841049,"{'classifier__activation': 'tanh', 'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (50,), 'classifier__learning_rate': 'constant'}"
+A03,riemann,Ensemble,0.8793103448275862,0.8802439218178929,N/A
+A03,combined_pca,LDA,0.7586206896551724,0.7627721277610043,"{'classifier__shrinkage': None, 'classifier__solver': 'svd'}"
+A03,combined_pca,SVM,0.7413793103448276,0.7403879310344829,"{'classifier__C': 0.1, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}"
+A03,combined_pca,RandomForest,0.7241379310344828,0.7197297408643348,"{'classifier__max_depth': 10, 'classifier__min_samples_leaf': 4, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 200}"
+A03,combined_pca,MLP,0.6724137931034483,0.6783150183150183,"{'classifier__activation': 'tanh', 'classifier__alpha': 0.01, 'classifier__hidden_layer_sizes': (100, 50), 'classifier__learning_rate': 'constant'}"
+A03,combined_pca,Ensemble,0.7413793103448276,0.7451585770551288,N/A
+A03,combined_lda,LDA,1.0,1.0,"{'classifier__shrinkage': None, 'classifier__solver': 'svd'}"
+A03,combined_lda,SVM,1.0,1.0,"{'classifier__C': 0.1, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}"
+A03,combined_lda,RandomForest,1.0,1.0,"{'classifier__max_depth': None, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 50}"
+A03,combined_lda,MLP,1.0,1.0,"{'classifier__activation': 'relu', 'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (50,), 'classifier__learning_rate': 'constant'}"
+A03,combined_lda,Ensemble,1.0,1.0,N/A
