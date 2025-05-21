@@ -1,5 +1,6 @@
 
 # Brain-Computer Interface (BCI) Motor Imagery Classification
+[Report.pdf](https://github.com/user-attachments/files/20363111/A_motor_imagery_classification_report.pdf)
 
 This project implements a complete pipeline for processing and classifying EEG data from motor imagery tasks, based on the BCI Competition IV Dataset 2a.
 
